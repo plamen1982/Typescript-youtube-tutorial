@@ -17,7 +17,11 @@ myArrayWithFixedSizeAndExactPlacesOfTheTypes = [1, true, undefined]; // if you c
 /* 
   Data Types:
     Primative Types:
-      undefinded;
+      number
+      string
+      bollean
+      object
+      undefinded
       null;
       number[] - array this is array of numbers, number can be string, object, boolean or any other valid type
       tuple - something like an array but you can list the types that this array can hold

@@ -58,6 +58,7 @@ var Rectangle = /** @class */ (function () {
     });
     return Rectangle;
 }());
+//With super, where super call the parent constructor
 var Square = /** @class */ (function (_super) {
     __extends(Square, _super);
     function Square(length) {
@@ -75,3 +76,8 @@ var Square = /** @class */ (function (_super) {
 }(Rectangle));
 var square = new Square(10);
 console.log(square.area);
+// Polymorphism you can have multiple instances of multiple classes refer to using a Parent class type
+var polyProgrammar = new Programmer(); // in this case we can access only the methods signature that comming from Person class,
+//not the ones in Programmer class but when you call them you will call a method implementation from Programmer class
+// in a way we restrict some methods from Programmer to be called in the new instance
+// next video Interfaces : //https://www.youtube.com/watch?v=v1ShOuVKikM&list=PLqq-6Pq4lTTanfgsbnFzfWUhhAz3tIezU&index=15
